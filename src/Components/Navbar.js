@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import imgg from"../Assets/WhatsApp Image 2024-10-11 at 19.56.21_ecaaddd9.jpg"
 
 import "../Styles/Navbar.css";
 import { Link } from "react-router-dom";
-import { toast } from "react-toastify";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
