@@ -1,0 +1,154 @@
+/* Main Section */
+.info-section {
+    padding: 0 3vw; /* Changed from 32px to vw */
+    text-align: center;
+    background-color: white;
+}
+
+.info-title-content {
+    margin: 6vh 0 12vh 0; /* Changed from 64px and 128px to vh */
+}
+
+.info-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4vw; /* Changed from 40px to vw */
+    font-weight: bold;
+}
+
+.info-title > span {
+    position: relative;
+}
+
+.info-title span::before {
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 0.4vh; /* Changed from 4px to vh */
+    background-color: #9D2553;
+    border-radius: 0.8vh; /* Changed from 8px to vh */
+    left: 0;
+    bottom: -1.2vh; /* Changed from -12px to vh */
+}
+
+.info-description {
+    margin: 6vh; /* Changed from 64px to vh */
+    text-align: center;
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3vw; /* Changed from 18px to vw */
+    letter-spacing: 0.08vw; /* Changed from .8px to vw */
+    line-height: 1.8rem;
+}
+
+/* Cards */
+.info-cards-content {
+    margin: 6vh 0; /* Changed from 64px to vh */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw; /* Changed from 32px to vw */
+}
+
+.info-cards {
+    height: auto;
+    border: 0.2vh solid #d7d3d3; /* Changed from 2px to vh */
+    border-radius: 1.2vh; /* Changed from 12px to vh */
+    background-color: white;
+    position: relative;
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transitions */
+}
+
+.info-cards:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    transform: translateY(-0.5vh); /* Lift effect */
+}
+
+.info-card-title {
+    margin: 7vh 0 4vh 0; /* Changed from 32px and 40px to vh */
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw; /* Changed from 28px to vw */
+    font-weight: bold;
+    letter-spacing: 0.08vw; /* Changed from .8px to vw */
+}
+
+.info-card-description {
+    margin: 2.4vh; /* Changed from 24px to vh */
+    color: rgb(77, 75, 75);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2vw; /* Changed from 28px to vw */
+
+    letter-spacing: 0.08vw; /* Changed from .8px to vw */
+    line-height: 2rem;
+}
+
+.info-card-icon {
+    position: absolute;
+    top: -2.4vh; /* Changed from -24px to vh */
+    left: 44%;
+    padding: 1vh; /* Changed from 10px to vh */
+    background-color: #DCE6FF;
+    border-radius: 3vh; /* Changed from 30px to vh */
+}
+
+.info-fa-icon {
+    color: #2C96FF;
+    font-size: 2.4vw; /* Changed from 24px to vw */
+}
+/* Responsive Design */
+@media screen and (max-width: 1000px) {
+    .info-description {
+        font-size: 8.8vw;
+        margin: 2vh 3vw;
+    }
+    .info-cards-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info-description {
+        font-size: 4vw; /* Adjusted for smaller screens */
+        margin: 6vh 0.8vw;
+    }
+    .info-cards-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .info-card-description {
+        margin: 2.4vh; /* Changed from 24px to vh */
+        color: rgb(77, 75, 75);
+        font-family: 'Rubik', sans-serif;
+        font-size: 3vw; /* Changed from 28px to vw */
+    
+        letter-spacing: 0.08vw; /* Changed from .8px to vw */
+        line-height: 1.4rem;
+    }
+    .info-card-title {
+        margin: 7vh 0 4vh 0; /* Changed from 32px and 40px to vh */
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 6vw; /* Changed from 28px to vw */
+        font-weight: bold;
+        letter-spacing: 0.08vw; /* Changed from .8px to vw */
+    }
+    .info-title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 8vw; /* Changed from 40px to vw */
+        font-weight: bold;
+    }
+    .info-description {
+        margin: 6vh; /* Changed from 64px to vh */
+        text-align: center;
+        color: rgb(77, 75, 75);
+        font-family: 'Rubik', sans-serif;
+        font-size: 5vw; /* Changed from 18px to vw */
+        letter-spacing: 0.08vw; /* Changed from .8px to vw */
+        line-height: 1.5rem;
+    }
+    .info-fa-icon {
+        color: #2C96FF;
+        font-size: 4.4vw; /* Changed from 24px to vw */
+    }
+}
+
+
+
