@@ -58,7 +58,6 @@ function Navbar() {
       {/* Mobile */}
       <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
         <div onClick={openNav} className="mobile-navbar-close">
-          <FontAwesomeIcon icon={faXmark} className="hamb-icon" />
         </div>
 
         <ul className="mobile-navbar-links">
@@ -97,11 +96,7 @@ function Navbar() {
 
       {/* Hamburger Icon */}
       <div className="mobile-nav">
-        <FontAwesomeIcon
-          icon={faBars}
-          onClick={openNav}
-          className="hamb-icon"
-        />
+        
       </div>
     </div>
   );
