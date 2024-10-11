@@ -17,7 +17,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-        <img src={imgg} id="imggg"></img>
+        <img src={imgg} id="imggg"/>
         </Link>
       </h1>
 

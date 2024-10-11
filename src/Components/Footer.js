@@ -10,7 +10,7 @@ function Footer() {
       <div className="footer-container">
         <div className="ft-info">
           <div className="ft-info-p1">
-          <img src={imgg} id="imggg"></img>
+          <img src={imgg} id="imggg"/>
 
             <p className="ft-description">
             The appointment setting has streamlined our workflow remarkably. We've experienced a noticeable boost in client satisfaction
