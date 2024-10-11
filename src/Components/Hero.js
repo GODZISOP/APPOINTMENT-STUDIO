@@ -6,16 +6,13 @@ import { useNavigate  } from "react-router-dom";
 import "../Styles/Hero.css";
 
 function Hero() {
-  const navigate = useNavigate();
   const [goUp, setGoUp] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleBookAppointmentClick = () => {
-    navigate("/appointment");
-  };
+
 
   useEffect(() => {
     const onPageScroll = () => {

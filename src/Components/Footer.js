@@ -3,7 +3,6 @@ import "../Styles/Footer.css";
 import imgg from"../Assets/WhatsApp Image 2024-10-11 at 19.56.21_ecaaddd9.jpg"
 
 import SubscribeNewsletter from "./SubscribeNewsletter";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -25,16 +24,16 @@ function Footer() {
           <p className="ft-list-title">Services</p>
           <ul className="ft-list-items">
             <li>
-              <a href="#">MARKETING</a>
+              <a href="/">MARKETING</a>
             </li>
             <li>
-              <a href="#">SOLUTION</a>
+              <a href="/">SOLUTION</a>
             </li>
             <li>
-              <a href="#">LEADS GENERATE</a>
+              <a href="/">LEADS GENERATE</a>
             </li>
             <li>
-              <a href="#">BUSINESS GROWTH</a>
+              <a href="/">BUSINESS GROWTH</a>
             </li>
             <li>
             </li>
