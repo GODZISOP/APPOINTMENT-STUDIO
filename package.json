@@ -2,7 +2,8 @@
   "name": "health-plus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://endearing-conkies-669561.netlify.app/Health-Plus",
+"homepage": "https://GODZISOP.github.io/APPOINTMENT-STUDIO/",
+
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
