@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Footer.css";
-import imgg from"../Assets/WhatsApp Image 2024-10-11 at 19.56.21_ecaaddd9.jpg"
+import imgg from"../Assets/WhatsApp Image 2024-10-12 at 00.50.51_36144618.jpg"
+
 
 import SubscribeNewsletter from "./SubscribeNewsletter";
 
@@ -10,7 +11,7 @@ function Footer() {
       <div className="footer-container">
         <div className="ft-info">
           <div className="ft-info-p1">
-          <img src="" alt={imgg} id="imggg"/>
+          <img src={imgg} alt="" id="imggg"/>
 
             <p className="ft-description">
             The appointment setting has streamlined our workflow remarkably. We've experienced a noticeable boost in client satisfaction

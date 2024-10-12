@@ -121,6 +121,69 @@ width: 10vw;
 .mobile-navbar-links li a:hover {
     color: #0cc2ea;
 }
+
+.navbar-section {
+    position: relative;
+  }
+  
+  .mobile-nav {
+    display: none; /* Hide by default, show on mobile */
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .line {
+    height: 3px;
+    width: 100%;
+    background-color: black; /* Change color as needed */
+    transition: all 0.3s ease;
+  }
+  
+  .mobile-navbar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden off-screen */
+    width: 70%;
+    height: 100%;
+    background-color: white; /* Background color */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5); /* Optional shadow for effect */
+    transition: right 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .mobile-navbar.open-nav {
+    right: 0; /* Slide in to view */
+  }
+  
+  .mobile-navbar-close {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Optional: Add some styling for links in mobile drawer */
+  .mobile-navbar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile-navbar-links li {
+    padding: 15px 20px; /* Space between items */
+  }
+  
+  /* Show hamburger menu on mobile */
+  @media (max-width: 768px) {
+    .mobile-nav {
+      display: flex; /* Show on mobile */
+    }
+  }
+  
 /* Responsive */
 @media screen and (max-width: 600px) {
     .navbar-btn, .navbar-items {

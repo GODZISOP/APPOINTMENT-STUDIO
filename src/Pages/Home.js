@@ -13,11 +13,11 @@ function Home() {
     <div className="home-section">
       <Navbar />
       <Hero />
-      <Info />
-      <About />
-      <BookAppointment />
-      <Reviews />
-      <Doctors />
+      <div id="services"><Info /></div>
+      <div id="about"><About /></div>
+      <div id="book-appointment"><BookAppointment /></div>
+      <div id="reviews"><Reviews /></div>
+      <div id="doctors"><Doctors /></div>
       <Footer />
     </div>
   );
