@@ -59,7 +59,7 @@ function Hero() {
             </div>
 
             <div className="text-stats-container">
-              <p>5+</p>
+              <p>1+</p>
               <p>Years of Experience</p>
             </div>
           </div>
